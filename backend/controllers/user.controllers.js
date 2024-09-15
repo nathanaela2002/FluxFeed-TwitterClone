@@ -44,6 +44,7 @@ export const followUnFollowUser = async(req, res) => {
             //     to: userToModify._id,
             // });
 
+            //TODO: return the id of the user as a response
             res.status(200).json({ message: "User unfollowed successfully" });
         } else {
             //Follow User
