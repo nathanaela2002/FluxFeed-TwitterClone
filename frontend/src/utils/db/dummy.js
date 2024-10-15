@@ -12,7 +12,7 @@ export const POSTS = [{
             text: "CUTIE!",
             user: {
                 username: "janedoe",
-                profileImg: "/avatars/girl1.png",
+                profileImg: "/avatars/girl1.jpg",
                 fullName: "Jane Doe",
             },
         }, ],
@@ -31,7 +31,7 @@ export const POSTS = [{
             text: "Nice Tutorial",
             user: {
                 username: "janedoe",
-                profileImg: "/avatars/girl2.png",
+                profileImg: "/avatars/girl2.jpg",
                 fullName: "Jane Doe",
             },
         }, ],
@@ -63,7 +63,7 @@ export const POSTS = [{
             text: "Nice Tutorial",
             user: {
                 username: "janedoe",
-                profileImg: "/avatars/girl3.png",
+                profileImg: "/avatars/girl3.jpg",
                 fullName: "Jane Doe",
             },
         }, ],
@@ -91,7 +91,7 @@ export const USERS_FOR_RIGHT_PANEL = [{
         _id: "2",
         fullName: "Jane Doe",
         username: "janedoe",
-        profileImg: "/avatars/girl1.png",
+        profileImg: "/avatars/girl1.jpg",
     },
     {
         _id: "3",
@@ -103,6 +103,6 @@ export const USERS_FOR_RIGHT_PANEL = [{
         _id: "4",
         fullName: "Daisy Doe",
         username: "daisydoe",
-        profileImg: "/avatars/girl2.png",
+        profileImg: "/avatars/girl2.jpg",
     },
 ];

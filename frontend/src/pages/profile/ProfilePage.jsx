@@ -28,7 +28,7 @@ const ProfilePage = () => {
 		fullName: "Natty B",
 		username: "nathanaela_2029",
 		profileImg: "/avatars/boy1.png",
-		coverImg: "/cover.png",
+		coverImg: "/cover1.jpg",
 		bio: "Hi Welcome to Flux Feed!",
 		link: "https://github.com/nathanaela2002",
 		following: ["1", "2", "3"],
