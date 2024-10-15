@@ -23,7 +23,7 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 - Tailwind CSS & DaisyUI: The frontend is styled with Tailwind CSS and DaisyUI, making use of utility classes and modern UI components.
 - Responsive Design: With mobile-first principles, Flux Feed adapts seamlessly to different screen sizes.
 
-![Home Page]([https://example.com/path/to/image.png](https://cdn.discordapp.com/attachments/796594711665180684/1295543891616989214/Frontend.png?ex=670f08c5&is=670db745&hm=c487cb65d532b0cd112df79743be15575cc8ad67258d3b7ffcdfe896af9fe32c&)
+![Home Page]([https://example.com/path/to/image.png](https://cdn.discordapp.com/attachments/796594711665180684/1295543891616989214/Frontend.png?ex=670f08c5&is=670db745&hm=c487cb65d532b0cd112df79743be15575cc8ad67258d3b7ffcdfe896af9fe32c&))
 
 ## 4. Real-Time Data with Socket.io
 Flux Feed uses Socket.io to enable real-time updates across the platform.
