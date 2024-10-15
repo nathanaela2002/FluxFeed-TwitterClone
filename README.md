@@ -24,13 +24,13 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 - Responsive Design: With mobile-first principles, Flux Feed adapts seamlessly to different screen sizes.
 
 Home Page
-![Home Page](https://cdn.discordapp.com/attachments/796594711665180684/1295543891616989214/Frontend.png?ex=670f08c5&is=670db745&hm=c487cb65d532b0cd112df79743be15575cc8ad67258d3b7ffcdfe896af9fe32c&)
+![Home Page](https://cdn.discordapp.com/attachments/796594711665180684/1295568445857071186/image.png?ex=670f1fa3&is=670dce23&hm=bc098cd991fc8e4a29d7d52fff4e2389e0f37181cbed3337a094251f5e01db2c&)
 
 Sign Up Page
-![HSign Up Page](https://cdn.discordapp.com/attachments/796594711665180684/1295545368930549782/image.png?ex=670f0a26&is=670db8a6&hm=35a2e4f36f68836f90bcf0fae0061f009ac7e2baef4e5e6836439ee29573014b&)
+![HSign Up Page](https://cdn.discordapp.com/attachments/796594711665180684/1295569477815107708/image.png?ex=670f209a&is=670dcf1a&hm=491e0288b2b532020addd37f84727697e37b224c777d68c032c09a26548ad794&)
 
 Log In Page
-![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1295545429030735872/image.png?ex=670f0a34&is=670db8b4&hm=0b8bb36185a59b77302f36ec9762fd4f24e41baa5643dbce7e89716ce6ab5aa2&)
+![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1295569362014699594/image.png?ex=670f207e&is=670dcefe&hm=a7c2d5fd92ca4c19a54cc37aba9b2c855c58061f044e3076185ed34b4eeafc72&)
 
 ## 4. Real-Time Data with Socket.io
 Flux Feed uses Socket.io to enable real-time updates across the platform.
