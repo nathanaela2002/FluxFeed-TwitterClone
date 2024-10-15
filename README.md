@@ -26,6 +26,12 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 Home Page
 ![Home Page](https://cdn.discordapp.com/attachments/796594711665180684/1295543891616989214/Frontend.png?ex=670f08c5&is=670db745&hm=c487cb65d532b0cd112df79743be15575cc8ad67258d3b7ffcdfe896af9fe32c&)
 
+Sign Up Page
+![HSign Up Page](https://cdn.discordapp.com/attachments/796594711665180684/1295545368930549782/image.png?ex=670f0a26&is=670db8a6&hm=35a2e4f36f68836f90bcf0fae0061f009ac7e2baef4e5e6836439ee29573014b&)
+
+Log In Page
+![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1295545429030735872/image.png?ex=670f0a34&is=670db8b4&hm=0b8bb36185a59b77302f36ec9762fd4f24e41baa5643dbce7e89716ce6ab5aa2&)
+
 ## 4. Real-Time Data with Socket.io
 Flux Feed uses Socket.io to enable real-time updates across the platform.
 
