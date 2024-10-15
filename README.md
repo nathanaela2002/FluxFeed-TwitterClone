@@ -32,14 +32,7 @@ Sign Up Page
 Profile Page
 ![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1295573454250315807/image.png?ex=670f244e&is=670dd2ce&hm=fe93916f77f6fc2654955af1a39a011156d8d1d123db8398ce6f348ae6e8158d&)
 
-## 4. Real-Time Data with Socket.io
-Flux Feed uses Socket.io to enable real-time updates across the platform.
-
-- Live Feed: The home feed updates instantly as users interact with the app.
-- Instant Notifications: New notifications are pushed to users in real-time, enhancing engagement.
-- Real-Time Messaging: A direct messaging feature will be added in future updates using Socket.io.
-
-## 5. Scalable and Modular Codebase
+## 4. Scalable and Modular Codebase
 Flux Feed is built with scalability and maintainability in mind, ensuring efficient development and easy expansion.
 
 - Backend: Built with Node.js and Express, Flux Feed handles RESTful API requests and interacts with MongoDB.
@@ -51,7 +44,6 @@ Flux Feed is built with scalability and maintainability in mind, ensuring effici
 - Frontend: React, Tailwind CSS, DaisyUI, Redux
 - Backend: Node.js, Express
 - Database: MongoDB
-- Real-Time Communication: Socket.io
 - Authentication: JWT with bcrypt for password hashing
 
 ## Installation
