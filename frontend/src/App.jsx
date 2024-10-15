@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 import HomePage from "./pages/home/HomePage";
 import SignUpPage from "./pages/auth/signup/SignUpPage";
@@ -9,9 +9,11 @@ import NotificationPage from "./pages/notification/NotificationPage";
 import ProfilePage from "./pages/profile/ProfilePage";
 
 function App() {
+  const location = useLocation();
+  const hideRightPanel = location.pathname === '/login' || location.pathname === '/signup';
+
   return (
     <div className='flex max-w-6xl mx-auto'>
-      {/* Common component, bc it's not wrapped with Routes*/}
       <Sidebar />
       <Routes>
         <Route path='/' element={<HomePage />} />
@@ -20,7 +22,7 @@ function App() {
         <Route path='/notifications' element={<NotificationPage />} />
         <Route path='/profile/:username' element={<ProfilePage />} />
       </Routes>
-      <RightPanel />
+      {!hideRightPanel && <RightPanel />}
     </div>
   );
 }
