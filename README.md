@@ -24,13 +24,13 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 - Responsive Design: With mobile-first principles, Flux Feed adapts seamlessly to different screen sizes.
 
 Home Page
-![Home Page](https://cdn.discordapp.com/attachments/796594711665180684/1295573312315064370/image.png?ex=670f242c&is=670dd2ac&hm=4214669b9eb32597072c69dde7ec06913bd4596960c82e7efcf25c14e241729d&)
+![Home Page](https://cdn.discordapp.com/attachments/796594711665180684/1296246069801255022/image.png?ex=671196ba&is=6710453a&hm=64363a22cc981da9a5002c0480842b248025f599076e93124d15ed776989fc67&)
 
 Sign Up Page
 ![HSign Up Page](https://cdn.discordapp.com/attachments/796594711665180684/1295569477815107708/image.png?ex=670f209a&is=670dcf1a&hm=491e0288b2b532020addd37f84727697e37b224c777d68c032c09a26548ad794&)
 
 Profile Page
-![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1295573454250315807/image.png?ex=670f244e&is=670dd2ce&hm=fe93916f77f6fc2654955af1a39a011156d8d1d123db8398ce6f348ae6e8158d&)
+![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1296246121328279552/image.png?ex=671196c6&is=67104546&hm=cc2a0f2fca1a3cc13312c98deee9e09feb97117145b9a4f941e0a3a0251a9b43&)
 
 ## 4. Scalable and Modular Codebase
 Flux Feed is built with scalability and maintainability in mind, ensuring efficient development and easy expansion.
