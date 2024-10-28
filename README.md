@@ -24,13 +24,13 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 - Responsive Design: With mobile-first principles, Flux Feed adapts seamlessly to different screen sizes.
 
 Home Page
-![Home Page](![twitter](https://github.com/user-attachments/assets/56449b2b-844b-4aea-a5c1-7005d613c748)
+![Home Page](https://github.com/user-attachments/assets/56449b2b-844b-4aea-a5c1-7005d613c748)
 
 Sign Up Page
-![Sign Up Page]![signup](https://github.com/user-attachments/assets/e5c4656f-8af6-4a92-836c-b010aea008d1)
+![Sign Up Page](https://github.com/user-attachments/assets/e5c4656f-8af6-4a92-836c-b010aea008d1)
 
 Profile Page
-![Profile Page]![profile](https://github.com/user-attachments/assets/056a3858-bc7d-4d31-a9bb-20017cc4446d)
+![Profile Page](https://github.com/user-attachments/assets/056a3858-bc7d-4d31-a9bb-20017cc4446d)
 
 ## 4. Scalable and Modular Codebase
 Flux Feed is built with scalability and maintainability in mind, ensuring efficient development and easy expansion.
