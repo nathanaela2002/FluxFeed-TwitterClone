@@ -24,7 +24,7 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 - Responsive Design: With mobile-first principles, Flux Feed adapts seamlessly to different screen sizes.
 
 Home Page
-![Home Page](![twitter](https://github.com/user-attachments/assets/56449b2b-844b-4aea-a5c1-7005d613c748))
+![Home Page](![twitter](https://github.com/user-attachments/assets/56449b2b-844b-4aea-a5c1-7005d613c748)
 
 Sign Up Page
 ![Sign Up Page]![signup](https://github.com/user-attachments/assets/e5c4656f-8af6-4a92-836c-b010aea008d1)
