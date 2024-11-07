@@ -24,22 +24,15 @@ Flux Feed is designed with a clean, mobile-friendly interface for a great user e
 - Responsive Design: With mobile-first principles, Flux Feed adapts seamlessly to different screen sizes.
 
 Home Page
-![Home Page](https://cdn.discordapp.com/attachments/796594711665180684/1295573312315064370/image.png?ex=670f242c&is=670dd2ac&hm=4214669b9eb32597072c69dde7ec06913bd4596960c82e7efcf25c14e241729d&)
+![Home Page](https://github.com/user-attachments/assets/56449b2b-844b-4aea-a5c1-7005d613c748)
 
 Sign Up Page
-![HSign Up Page](https://cdn.discordapp.com/attachments/796594711665180684/1295569477815107708/image.png?ex=670f209a&is=670dcf1a&hm=491e0288b2b532020addd37f84727697e37b224c777d68c032c09a26548ad794&)
+![Sign Up Page](https://github.com/user-attachments/assets/e5c4656f-8af6-4a92-836c-b010aea008d1)
 
 Profile Page
-![Log In Page](https://cdn.discordapp.com/attachments/796594711665180684/1295573454250315807/image.png?ex=670f244e&is=670dd2ce&hm=fe93916f77f6fc2654955af1a39a011156d8d1d123db8398ce6f348ae6e8158d&)
+![Profile Page](https://github.com/user-attachments/assets/056a3858-bc7d-4d31-a9bb-20017cc4446d)
 
-## 4. Real-Time Data with Socket.io
-Flux Feed uses Socket.io to enable real-time updates across the platform.
-
-- Live Feed: The home feed updates instantly as users interact with the app.
-- Instant Notifications: New notifications are pushed to users in real-time, enhancing engagement.
-- Real-Time Messaging: A direct messaging feature will be added in future updates using Socket.io.
-
-## 5. Scalable and Modular Codebase
+## 4. Scalable and Modular Codebase
 Flux Feed is built with scalability and maintainability in mind, ensuring efficient development and easy expansion.
 
 - Backend: Built with Node.js and Express, Flux Feed handles RESTful API requests and interacts with MongoDB.
@@ -51,7 +44,6 @@ Flux Feed is built with scalability and maintainability in mind, ensuring effici
 - Frontend: React, Tailwind CSS, DaisyUI, Redux
 - Backend: Node.js, Express
 - Database: MongoDB
-- Real-Time Communication: Socket.io
 - Authentication: JWT with bcrypt for password hashing
 
 ## Installation
