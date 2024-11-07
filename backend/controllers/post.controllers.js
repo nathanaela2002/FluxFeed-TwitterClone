@@ -47,23 +47,33 @@ export const deletePost = async(req, res) => {
             return res.status(404).json({ error: "Post not found" });
         }
 
+        // Ensure that only the post owner can delete the post
         if (post.user.toString() !== req.user._id.toString()) {
-            return res.status(404).json({ error: "You are not authorized to delete this post" });
+            return res.status(403).json({ error: "You are not authorized to delete this post" });
         }
 
+        // If there's an image, delete it from Cloudinary
         if (post.img) {
-            const imgId = post.img.split("/".pop().split(".")[0]);
-            await cloudinary.uploader.destroy(imgId);
+            const imgUrlParts = post.img.split('/');
+            const imgIdWithExtension = imgUrlParts[imgUrlParts.length - 1]; // e.g., sample.jpg
+            const imgId = imgIdWithExtension.split('.')[0]; // e.g., sample
+
+            await cloudinary.uploader.destroy(imgId, (error, result) => {
+                if (error) {
+                    console.error("Failed to delete image from Cloudinary:", error);
+                    return res.status(500).json({ error: "Failed to delete image" });
+                }
+            });
         }
 
+        // Delete the post itself
         await Post.findByIdAndDelete(req.params.id);
-
-        res.status(200).json({ message: "Post deleted successfully" });
+        res.status(200).json({ message: "Post and associated image deleted successfully" });
     } catch (error) {
-        console.log("Error in deletePost controller: ", error);
+        console.error("Error in deletePost controller: ", error);
         res.status(500).json({ error: "Internal server error" });
     }
-}
+};
 
 export const commentOnPost = async(req, res) => {
     try {
@@ -110,7 +120,9 @@ export const likeUnlikePost = async(req, res) => {
             //Unlike post
             await Post.updateOne({ _id: postId }, { $pull: { likes: userId } });
             await User.updateOne({ _id: userId }, { $pull: { likedPosts: postId } });
-            res.status(200).json({ message: "Post unliked successfully" });
+
+            const updatedLikes = post.likes.filter((id) => id.toString() !== userId.toString());
+            res.status(200).json(updatedLikes);
         } else {
             //Like post
             post.likes.push(userId);
@@ -125,7 +137,8 @@ export const likeUnlikePost = async(req, res) => {
 
             await notification.save();
 
-            res.status(200).json({ message: "Post liked successfully" });
+            const updatedLikes = post.likes;
+            res.status(200).json(updatedLikes);
         }
     } catch (error) {
         console.log("Error in likeUnlikePost Controller: ", error);
