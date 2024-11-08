@@ -27,7 +27,7 @@ Home Page
 ![Home Page](https://github.com/user-attachments/assets/56449b2b-844b-4aea-a5c1-7005d613c748)
 
 Sign Up Page
-![Sign Up Page](https://github.com/user-attachments/assets/e5c4656f-8af6-4a92-836c-b010aea008d1)
+![Sign Up Page](https://github.com/user-attachments/assets/39abe842-74bb-40d7-a3d0-072d90283a0a)
 
 Profile Page
 ![Profile Page](https://github.com/user-attachments/assets/056a3858-bc7d-4d31-a9bb-20017cc4446d)
