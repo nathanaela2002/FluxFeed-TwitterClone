@@ -1,6 +1,6 @@
 # Flux Feed - Twitter Clone
 
-Link: https://fluxfeed-twitterclone.onrender.com/login
+Link: https://fluxfeed.onrender.com/login
 Flux Feed is a modern Twitter clone application that offers a full-featured social media experience. Developed with the MERN stack, it enables real-time interactions, secure authentication, and a clean, responsive interface with Tailwind CSS and DaisyUI. This project highlights my full-stack development skills, with an emphasis on performance, scalability, and intuitive design.
 
 ## Features
